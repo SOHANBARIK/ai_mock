@@ -180,7 +180,7 @@ with st.sidebar:
             st.rerun()
 
 # --- MAIN INTERFACE LAYOUT ---
-st.title("👔 Technical Mock Interview")
+st.title("👔 AI Mock Interview")
 
 if not st.session_state.interview_active and not st.session_state.evaluation:
     st.info("👈 Upload your resume and enter a role in the sidebar to begin.")
